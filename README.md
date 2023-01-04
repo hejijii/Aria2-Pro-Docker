@@ -39,7 +39,7 @@ docker run -d \
     -e PUID=$UID \
     -e PGID=$GID \
     -e UMASK_SET=022 \
-    -e RPC_SECRET=<TOKEN> \
+    -e RPC_SECRET=kasdjskad \
     -e RPC_PORT=6800 \
     -p 6800:6800 \
     -e LISTEN_PORT=6888 \
